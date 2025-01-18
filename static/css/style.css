@@ -1,0 +1,44 @@
+/* Basic reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.table-container{
+    border:1px solid #ddd;
+    padding:10px
+    background-color:#fff
+}
+
+table{
+    width:100%
+    border-collapse: collapse;
+    margin-top:20px
+}
+table, th, td{
+    border: 1px solid #ddd
+}
+th, td{
+padding: 8px;
+text-align: left;
+}
+th{
+background-color: #f1f1f1
+}
