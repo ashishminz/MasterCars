@@ -9,10 +9,14 @@ app = Flask(__name__)
 # Database connection configuration
 def get_db_connection():
     connection = mysql.connector.connect(
-        host='localhost',
+        # host='localhost',
+        # user='root',
+        # password='admin',
+        # database='testdb'
+        host='dpg-cu6562l6l47c73buklv0-a',
         user='root',
-        password='admin',
-        database='testdb'
+        password='8DWQBzO5SgdELzn3IEsUj9hckDGMA9AE',
+        database='cars_ahs9'
     )
     return connection
 

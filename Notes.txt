@@ -1,0 +1,6 @@
+Deploying requires gunicorn….
+Had to install it separately and add it in requirements.txt
+
+Had to create a database in render. Took about 1 min
+
+We provide database details in current app script
